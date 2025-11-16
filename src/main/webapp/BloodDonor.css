@@ -1,0 +1,256 @@
+@charset "UTF-8";
+.container-fluid{
+    height: 4rem;
+}
+
+body{
+	font-family: Arial, sans-serif;
+}
+
+.logo{
+    height: 3rem;
+   }
+
+
+#logo-text{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.navbar-nav {
+    
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.navbar-bg{
+    background-color:rgba(255, 245, 245, 0.7) ;
+}
+
+
+.nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+
+
+
+.nav-link {
+    color: rgb(184, 28, 28);
+    font-size: 20px;
+    font-weight: 600;
+    transition: all 3s linear;
+}
+
+
+
+.nav-link {
+    color: rgb(184, 28, 28);
+    font-size: 20px;
+    font-weight: 600;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.nav-link:hover {
+    color: black;
+    background-color: rgba(255, 62, 62, 0.4);
+    border-radius: 15px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link:hover {
+    color: black ;
+    background-color: rgba(255, 62, 62, 0.4) ;
+    border-radius: 15px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+#donor-registration{
+    border: 2px solid white;
+    height: 500px;
+    width: 800px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D2042D;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    
+   
+}
+
+.donor-section{
+    
+    height: 100vh;
+    background-color: #FFF0F5;
+    
+}
+
+
+.register{
+   color: white;
+   font-size: 30px;
+   font-weight: 650;
+   
+
+}
+
+.form-control{
+    background: none !important;
+    width: 70vh !important;
+    border: none !important;
+    border-bottom: 2px solid white !important;
+    color: white !important;
+    
+}
+
+#donor-registration label{
+    color: white !important; 
+}
+
+.form-control:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    caret-color: white !important;
+}
+
+.form-select{
+
+    background: none !important;
+    width: 70vh !important;
+    border: none !important;
+    border-bottom: 2px solid white !important;
+    color: white !important;
+
+}
+
+.form-select:focus {
+    outline: none !important;
+    box-shadow: none !important;
+    caret-color: white !important;
+}
+
+.form-select option{
+    color: black;
+    font-weight: 600;
+}
+
+
+.submit-button{
+    border: 2px solid white;
+    color: white;
+    background: none;
+    padding: 10px 30px;
+    border-radius: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    
+    transition: all 0.7s ease;
+}
+
+
+.submit-button:hover{
+    background-color: white;
+    color: #D2042D;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    transform: scale(1.05);
+}
+
+
+.tq{
+    border: 1px solid rgb(251, 107, 107);
+    box-shadow: 0 0 3px rgb(251, 107, 107);
+    text-align: center;
+    height: 5rem;
+    width: 30rem;
+    display: grid;
+    align-items: end;
+
+
+}
+
+
+.heart-img{
+    height: 2.5rem;
+    width: 2.5rem;
+    
+}
+
+
+.tq-msg{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+#donor-search{
+
+    border: 2px solid white;
+    height: 300px;
+    width: 800px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D2042D;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+
+}
+
+
+#donor-search label{
+    color: white !important; 
+}
+
+
+
+
+
+
+.footer-section{
+    
+    display: flex;
+    justify-content: center;
+    height: 13rem;
+    align-items: center;
+    font-size: 1.7rem;
+    gap: 1.3rem;
+    background-color: #f8e2e7;
+}
+
+
+
+
+.icon-round{
+    
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: rgb(158, 47, 47);
+    color: white;
+    border-radius: 50%;
+    padding: 23px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+
+
+.icon-round:hover{
+    
+    box-shadow: 0 0 7px rgba(242, 38, 38, 0.5);
+    transform: scale(1.1);
+}
